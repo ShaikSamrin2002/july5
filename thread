@@ -1,0 +1,22 @@
+A THREAD IS PATH TO BE EXECUTED
+
+public class current {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println("Let us find the current thread : ");
+		Thread t=new Thread().currentThread();
+		System.out.println("Current thread : "+t);
+		System.out.println("Current thred name: "+t.getName());
+		
+	}
+
+}
+O/P:
+Let us find the current thread : 
+Current thread : Thread[main,5,main]  // 5 IS PRIORITY RANGE
+Current thred name : main
+
+
